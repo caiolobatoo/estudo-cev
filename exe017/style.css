@@ -1,0 +1,29 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'castile';
+    src: url('fonts/castile/CastileInlineGrunge.otf') format('opentype');
+}
+body{
+    background-image: linear-gradient(90deg,#4F5763, #2A2C30,#0D1216);
+    
+}
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: #4f576387 10px 10px 8px ;
+    margin: auto;
+    width: 600px;
+    padding: 10px; ;
+}
+h1{
+    text-align: center;
+    font-family: castile;
+}
+h2{
+    text-align: center;
+    font-family: castile;
+}
+p{
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace, Times, serif;
+}
